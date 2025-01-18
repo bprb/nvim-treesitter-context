@@ -8,7 +8,7 @@
 ) @context
 
 (function_definition
-  body: (_ (_) @context.end)
+  body: (_) @context.end
 ) @context
 
 (for_statement
@@ -16,27 +16,27 @@
 ) @context
 
 (if_statement
-  consequence: (_ (_) @context.end)
+  consequence: (_) @context.end
 ) @context
 
 (else_clause
-  (_ (_) @context.end)
+  (_) @context.end
 ) @context
 
 (while_statement
-  body: (_ (_) @context.end)
+  body: (_) @context.end
 ) @context
 
 (do_statement
-  body: (_ (_) @context.end)
+  body: (_) @context.end
 ) @context
 
 (struct_specifier
-  body: (_ (_) @context.end)
+  body: (_) @context.end
 ) @context
 
 (enum_specifier
-  body: (_ (_) @context.end)
+  body: (_) @context.end
 ) @context
 
 (switch_statement
